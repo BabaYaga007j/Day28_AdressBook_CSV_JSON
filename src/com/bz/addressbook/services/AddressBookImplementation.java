@@ -2,6 +2,7 @@ package com.bz.addressbook.services;
 
 import java.util.Scanner;
 
+
 import com.bz.addressbook.interfaces.InterfaceAddressBook;
 import com.bz.addressbook.model.Contacts;
 import com.bz.addressbook.utility.FileHandlingOfSelf;
@@ -13,7 +14,7 @@ public class AddressBookImplementation implements InterfaceAddressBook
 {
 
 	private static Scanner getDetailInput = new Scanner(System.in);
-	FileHandlingOfSelf selHandling = new FileHandlingOfSelf();//FileHandling
+	CSVFile selHandling = new CSVFile();
 	
 
 	public void welcomeMessage() 
