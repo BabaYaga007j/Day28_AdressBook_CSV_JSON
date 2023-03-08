@@ -14,7 +14,7 @@ public class AddressBookImplementation implements InterfaceAddressBook
 {
 
 	private static Scanner getDetailInput = new Scanner(System.in);
-	CSVFile selHandling = new CSVFile();
+	JSONFile selHandling = new JSONFile();
 	
 
 	public void welcomeMessage() 
